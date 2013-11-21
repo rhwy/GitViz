@@ -20,6 +20,7 @@ namespace GitViz.Logic
             get { return _repositoryPath; }
             set
             {
+
                 _repositoryPath = value;
                 if (IsValidGitRepository(_repositoryPath))
                 {
