@@ -5,6 +5,11 @@ namespace GitViz.Tests
 {
     static class JsonExtensions
     {
+        /// <summary>
+        /// Converts object to JSON
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         internal static string ToJson(this object value)
         {
             using (var stringWriter = new StringWriter())
